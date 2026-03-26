@@ -17,7 +17,7 @@ format:
     fig-width: 6
     fig-height: 3
   pdf:
-    documentclass: scrreprt
+    documentclass: article
     colorlinks: true
     linkcolor: blue
     fig-width: 6
@@ -28,14 +28,14 @@ format:
     echo: false
     include-in-header:
       text: |
-        %\usepackage{unicode-math,polyglossia}
-        %\usepackage[sups,osf]{fbb}
         \usepackage[scaled=.95]{cabin} 
         \usepackage[varqu,varl]{inconsolata} 
-        %\usepackage{mathpazo}
-
+  
 execute:
   cache: true
   warning: false
 
 csl: bibstyle.csl
+
+author: Firstname Lastname
+date: 2015-09-14
