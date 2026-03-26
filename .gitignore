@@ -138,8 +138,6 @@ dmypy.json
 
 docs/*.pdf
 *.zip
-*.bib
-!docs/GSSI_report.bib
 
 skymap-comparison/*.pdf
 skymap-comparison/*.fits
@@ -177,7 +175,6 @@ data/gw170817_run/*
 
 **/libs/*
 *.js
-*.css
 
 
 _extensions/*
