@@ -10,6 +10,8 @@ If `uv` is installed, the commands defined in the `Makefile` can be used:
 - `make pdf` will render the PDF version of the project.
 
 Small scripts can be included within the `qmd` files themselves, while 
+more involved computations can be moved to the `project_scripts` folder, 
+which is set up as a python project from which one may import functions and classes.
 
 ### Usage tricks
 
