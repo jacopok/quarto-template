@@ -4,6 +4,16 @@ title: "Presentation"
 format: revealjs
 ---
 
-# Title slide
+## First slide
 
-Text
+
+::: {.incremental}
+- Incremental 
+- list!
+:::
+
+::: {.fragment}
+And another fragment
+:::
+
+## Second slide

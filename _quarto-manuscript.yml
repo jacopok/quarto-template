@@ -20,9 +20,11 @@ format:
     code-summary: "Source code"
     fig-width: 6
     fig-height: 3
+    notebook-links: false
   pdf:
     documentclass: article
     colorlinks: true
+    notebook-links: false
     linkcolor: blue
     fig-width: 6
     fig-height: 3

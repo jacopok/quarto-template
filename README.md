@@ -1,11 +1,13 @@
 Template project managed with [quarto](https://quarto.org/docs/guide/).
 
-The rendered version is available [here](https://jacopok.github.io/quarto-template/).
+The rendered version of the manuscript is available [here](https://jacopok.github.io/quarto-template/);
+the presentation is [here](https://jacopok.github.io/quarto-template/presentation.html).
 
 The dependencies are managed with `uv` ([installation](https://docs.astral.sh/uv/getting-started/installation/#standalone-installer)).
 If `uv` is installed, the commands defined in the `Makefile` can be used:
 
-- `make show` will render the HTML version of the project in a browser window, updated in real time as the underlying files change;
+- `make showm` will render the HTML version of the project in a browser window, updated in real time as the underlying files change;
+- `make showp` will do the same for the revealjs presentation in a browser window;
 - `make html` will render the HTML version of the project as a static website;
 - `make pdf` will render the PDF version of the project.
 

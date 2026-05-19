@@ -11,3 +11,4 @@ x = 1
 
 Markdown(f'This is some Markdown rendered text with a variable ${x=}$.')
 ```
+
