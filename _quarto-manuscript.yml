@@ -34,12 +34,6 @@ format:
       text: |
         \usepackage[scaled=.95]{cabin} 
         \usepackage[varqu,varl]{inconsolata} 
-  revealjs: 
-    slide-number: true
-    chalkboard: 
-      buttons: false
-    preview-links: auto
-    theme: dark
 
 website:
   sidebar:
