@@ -1,0 +1,16 @@
+project:
+  title: presentation
+  type: manuscript
+  render: [presentation.qmd]
+
+manuscript:
+  article: presentation.qmd
+
+
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    theme: dark

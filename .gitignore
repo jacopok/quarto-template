@@ -188,3 +188,5 @@ QTDublinIrish.otf
 **/*.quarto_ipynb
 
 _manuscript/*
+
+site_libs/*
